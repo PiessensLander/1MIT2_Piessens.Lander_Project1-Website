@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>De Vleshalle | Reserveren</title>
+    <link rel="stylesheet" href="https://use.typekit.net/lnm3gwk.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/e7ddfed221.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg pt-4 pb-2 navbar-light">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="De Vleeshalle Logo"
+                        style="width: 128px; height: auto;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link mb-3 p-0 mb-lg-0 mx-md-3" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-3 p-0 mb-lg-0 mx-md-3" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-3 p-0 mb-lg-0 mx-md-3" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-3 p-0 mb-lg-0 mx-md-3" href="concept.html">Concept</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="reserveren.html" class="nav-link ms-3 px-4 py-2 btn btn-border">reserveren</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav aria-label="breadcrumb" class="pt-3 pb-2">
+            <ol class="breadcrumb m-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Reserveren</li>
+            </ol>
+        </nav>
+        <div class="row contact">
+            <div class="col-lg-8 col-sm-12 py-4">
+                <h1 class="mb-3">Reserveren</h1>
+                <p class="mb-4">Wil je graag een reservatie maken? Dat kan hier! Vul al je gegevens in en je tafel zal
+                    klaar staan voor jou.</p>
+                <div class="row">
+                    <div class="col-12">
+                        <form action="#">
+                            <div class="row mb-4">
+                                <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
+                                    <div class="voornaam d-flex flex-column">
+                                        <label for="voornaam" class="mb-2">Voornaam</label>
+                                        <input id="voornaam" name="voornaam" type="text" placeholder="Voornaam"
+                                            class="px-2" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="achternaam d-flex flex-column">
+                                        <label for="naam" class="mb-2">Naam</label>
+                                        <input id="naam" name="achternaam" type="text" placeholder="Naam" class="px-2"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
+                                    <div class="email d-flex flex-column">
+                                        <label for="email" class="mb-2">E-mail</label>
+                                        <input id="email" name="email" type="email" placeholder="E-mail" class="px-2"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="achternaam d-flex flex-column">
+                                        <div class="aantal-personen mb-2 d-flex align-items-center">
+                                            <label for="personen" class=" me-2">Aantal personen</label>
+                                            <a href="#" data-bs-toggle="tooltip" title="" data-bs-original-title="We kunnen reservaties pas
+                                                aannemen vanaf 12 personen. Ben je met minder? Geen probleem. Er is
+                                                altijd een plaatsje vrij!"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    width="16" height="16" fill="#cfb53b"
+                                                    class=" bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                                                </svg></a>
+                                        </div>
+                                        <input id="personen" name="personen" type="number" placeholder="Aantal personen"
+                                            min="12" max="30" class="px-2" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="bericht d-flex flex-column">
+                                        <label for="tijdslot" class="mb-2">Tijdslot</label>
+                                        <select name="tijdslot" id="tijdslot" required class="px-2">
+                                            <option value="" disabled>Maak een keuze</option>
+                                            <optgroup label="Lunch">
+                                                <option value="1200">12u</option>
+                                                <option value="1230">12u30</option>
+                                                <option value="1300">13u</option>
+                                                <option value="1330">13u30</option>
+                                                <option value="1400">14u</option>
+                                            </optgroup>
+                                            <optgroup label="Diner">
+                                                <option value="1700">17u</option>
+                                                <option value="1730">17u30</option>
+                                                <option value="1800">18u</option>
+                                                <option value="1830">18u30</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="datum d-flex flex-column">
+                                        <label for="datum" class="mb-2">Datum</label>
+                                        <input type="date" name="datum" id="datum" data-provide="datepicker" required
+                                            class="px-2 w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-solid">Bevestig</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 py-4 contact-img d-none d-lg-block">
+                <img src="img/1.jpg" alt="" class="h-100">
+            </div>
+            <div class="row pt-4 pb-2">
+                <div class="col-sm-12 col-md-4">
+                    <h2>Openingsuren</h2>
+                    <div class="openingsuren d-flex justify-content-between">
+                        <div class="dagen">
+                            <p class="fw-bold">maandag</p>
+                            <p class="fw-bold">di-do</p>
+                            <p class="fw-bold">vr-za</p>
+                            <p class="fw-bold">zon- en feestdagen</p>
+                        </div>
+                        <div class="uren">
+                            <p>GESLOTEN</p>
+                            <p>11u-20u</p>
+                            <p>11u-22u</p>
+                            <p>11u-20u</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-1 d-none d-sm-block">
+                    <br>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 ml-auto">
+                    <h2>Bereikbaarheid</h2>
+                    <p>De Vleeshalle ligt in hartje Mechelen. Perfect bereikbaar met trein, bus, fiets of te voet. Met
+                        de auto kan ook, maar we houden de binnenstad liefst zo autovrij mogelijk!</p>
+                </div>
+            </div>
+            <div class="row pt-3 pb-4">
+                <div class="col-12 col-lg-7">
+                    <h3>Schrijf je in voor onze nieuwsbrief</h3>
+                    <form class="nieuwsbrief w-100">
+                        <div class="row">
+                            <div class="col-12 col-sm-8 col-lg-8 mb-3 mb-sm-0">
+                                <input type="email" name="nieuwebrief-email" id="nieuwsbrief-email"
+                                    class="w-100 p-2 h-100" placeholder="E-mail" required>
+                            </div>
+                            <div class="col-12 col-sm-3 col-lg-4">
+                                <button type="submit" class="btn-solid w-100 px-4 py-2 ">Bevestigen</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-sm-12">
+                    <div class="mapouter">
+                        <iframe id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=De%20Vleeshalle%20Mechelen&t=&z=17&ie=UTF8&iwloc=&output=embed">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p>Deze website is een opdracht van de richting MIT op HOWEST.</p>
+                    <a href="https://howest.be" target="_blank"><img src="img/logo-howest.png" alt="Logo Howest"></a>
+                </div>
+                <div class="col-6 d-flex flex-column align-items-end">
+                    <p>Vind ons op</p>
+                    <div class="icons-footer d-flex align-items-center ">
+                        <a href="https://www.facebook.com/devleeshalle/" target="_blank" class="me-4"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/devleeshallemechelen/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
